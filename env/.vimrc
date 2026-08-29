@@ -11,6 +11,9 @@ set autowrite
 set textwidth=0
 set nowrap
 
+" Thin cursor in insert mode
+let &t_SI = "\<Esc>[6 q" | let &t_EI = "\<Esc>[2 q" 
+
 " UI
 set number
 set relativenumber
